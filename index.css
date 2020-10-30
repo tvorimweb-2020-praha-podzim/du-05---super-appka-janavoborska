@@ -50,3 +50,50 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.hlavicka {
+    background-image: linear-gradient(to right, #25133d 25%, #aa5477 100%);
+    color: white;
+    height: 250px;
+}
+
+.hlavni--nadpis {
+    font-weight: 700; 
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.slogan {
+    font-weight: 300; 
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.tlacitka li {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    min-width: 185px;
+    text-align: center;
+    font-weight: small;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+
+
+.tlacitka li:hover,
+.tlacitka li:focus,
+.tlacitka li:active {
+    background-color: #48418e;
+}
+
+.tlacitka--seznam {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+    margin-left: -40px;    
+    justify-content: space-evenly;
+}
