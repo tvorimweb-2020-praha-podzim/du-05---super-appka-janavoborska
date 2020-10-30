@@ -97,3 +97,33 @@ body {
     margin-left: -40px;    
     justify-content: space-evenly;
 }
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .tlacitka--seznam {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: -40px;    
+        justify-content: space-evenly;
+    }
+  
+    .hlavicka {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .tlacitka--seznam {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: -40px;    
+        justify-content: space-evenly;
+    }
+  
+    .hlavicka {
+        height: 200px;
+    }
+
+@media screen and (min-width: 800px) {
+        
