@@ -38,6 +38,7 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     line-height: 1.5;
+    background-color: #e5e5e5 ;
 }
 
 .container {
@@ -98,6 +99,48 @@ body {
     justify-content: space-evenly;
 }
 
+.navigace li {
+    display: inline-block;
+    text-decoration: none;
+    color: #48418e;
+    padding: 10px;
+    
+}
+
+.navigace {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: -25px;
+    flex-wrap: wrap;
+}
+
+.navigace li:hover {
+   color: #25133d;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #48418e;
+    font-size: 700;
+    font-weight: bold;
+}
+
+img {
+    position: relative;
+    image-res: 10px;
+}
+
+.paticka {
+    color: #48418e;
+    text-align: center;
+    background-color:  #25133d ;
+}
+
+
 @media screen and (min-width: 400px) and (max-width: 500px) {
     .tlacitka--seznam {
         display: flex;
@@ -126,4 +169,16 @@ body {
     }
 
 @media screen and (min-width: 800px) {
-        
+    .tlacitka--seznam {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        margin-left: -40px;    
+        justify-content: space-evenly;
+    }
+  
+    .hlavicka {
+        height: 200px;
+    } 
+}
