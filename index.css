@@ -71,9 +71,10 @@ body {
     padding-top: 5px;
 }
 
-.navigace ul {
+.navigace {
     padding: 0;
     margin: 0;
+    padding-left: 30px;
 }
 
 .tlacitka li {
