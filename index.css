@@ -71,6 +71,11 @@ body {
     padding-top: 5px;
 }
 
+.navigace ul {
+    padding: 0;
+    margin: 0;
+}
+
 .tlacitka li {
     display: inline-block;
     text-decoration: none;
@@ -127,11 +132,13 @@ h2 {
     color: #48418e;
     font-size: 700;
     font-weight: bold;
+    margin-top: 2rem;
 }
 
-img {
-    position: relative;
-    image-res: 10px;
+.sluzby img {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
 }
 
 .paticka {
