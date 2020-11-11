@@ -143,13 +143,17 @@ h2 {
     font-weight: bold;
     margin-top: 2rem;
 }
-.cestujposvete {
-    position: relative;
-}
-.sluzby img {
-    position: absolute;
-    width: 50px;
+
+.cestujposvete,
+.chatujsprateli,
+.zazijdobrodruzstvi {
     text-align: center;
+}
+
+.sluzby img {
+    padding-left: 1rem;
+    width: 75px;
+    
     
 }
 
