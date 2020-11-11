@@ -215,6 +215,13 @@ h2 {
         font-size: auto;
     }
 
+    .hlavicka {
+        height: 200px;
+        background-image: url('telefon.png'), linear-gradient(to right, #25133d, #aa5477);
+        background-repeat: no-repeat;
+    
+    } 
+
    
 @media screen and (min-width: 750px) and (max-width: 1200px){
     .navigace li {
