@@ -72,6 +72,7 @@ body {
     font-size: x-large;
     padding-left: 15px;
     padding-top: 15px;
+    
 }
 
 .slogan {
@@ -106,6 +107,10 @@ body {
    color: white;
 }
 
+.capitalky {
+    text-transform:uppercase;
+}
+
 /*
 margin-left: -25px;
 padding-left: 15px;
@@ -129,6 +134,7 @@ padding-left: 15px;
 .tlacitka li:focus,
 .tlacitka li:active {
     background-color: #48418e;
+    
 }
 
 .tlacitka--seznam {
@@ -164,9 +170,9 @@ h2 {
 }
 
 .paticka {
-    color: #48418e;
+    color: white;
     text-align: center;
-    background-color:  #25133d ;
+    background-color: #48418e ;
 }
 
 
