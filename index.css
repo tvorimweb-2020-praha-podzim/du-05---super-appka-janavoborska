@@ -69,7 +69,7 @@ body {
 
 .hlavni--nadpis {
     font-weight: 700; 
-    font-size: x-large;
+    font-size: xx-large;
     padding-left: 15px;
     padding-top: 15px;
     
@@ -96,6 +96,13 @@ body {
     width: 50%;
     text-align: center;
     padding: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    
 }
 
 .navigace li:first-child {
