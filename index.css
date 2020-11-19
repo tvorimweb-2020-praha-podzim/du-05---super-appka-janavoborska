@@ -99,10 +99,16 @@ body {
     
 }
 
-a {
+.navigace a {
+    text-decoration: none;
+    color: currentColor;    
+}
+
+.tlacitka--seznam a {
     text-decoration: none;
     color: currentColor;
     
+    text-align: center;
 }
 
 .navigace li:first-child {
@@ -156,6 +162,8 @@ padding-left: 15px;
 
 p {
     text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 h2 {
